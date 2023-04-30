@@ -1949,7 +1949,7 @@ if (reversed == null) { reversed = false; }
 		});
 		
 		_this.home_btn.on('click', function(){
-			location.href="/dcp_dog_se/";
+			location.href="https://dcp-test.vercel.app/";
 		});
 		
 		_this.back_quiz_btn.on('click', function(){
