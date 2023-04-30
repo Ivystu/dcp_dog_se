@@ -436,8 +436,8 @@ p.nominalBounds = new cjs.Rectangle(0,0,3841,2160);
 
 
 
-(lib._41山丘小徑入口01 = function() {
-	this.initialize(img._41山丘小徑入口01);
+(lib._41enter = function() {
+	this.initialize(img._41enter);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,5443,3062);
 
@@ -456,8 +456,8 @@ p.nominalBounds = new cjs.Rectangle(0,0,5443,3062);
 
 
 
-(lib.橢圓1 = function() {
-	this.initialize(img.橢圓1);
+(lib.oval = function() {
+	this.initialize(img.oval);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2480,3508);
 
@@ -489,14 +489,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,8000,4500);
 
 
 
-(lib.葉子影像 = function() {
-	this.initialize(img.葉子影像);
+(lib.leaf = function() {
+	this.initialize(img.leaf);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,3635,1969);
 
 
-(lib.草叢影像 = function() {
-	this.initialize(img.草叢影像);
+(lib.grass_frame = function() {
+	this.initialize(img.grass_frame);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,4001,1928);
 
@@ -1907,7 +1907,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({regX:780.8,regY:571.7,x:874.8,y:655.7},0).wait(76));
 
 	// 圖層_1
-	this.instance_1 = new lib._41山丘小徑入口01();
+	this.instance_1 = new lib._41enter();
 	this.instance_1.setTransform(0,0,0.3527,0.3527);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(77));
@@ -2091,7 +2091,7 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.CachedBmp_1();
 	this.instance.setTransform(0.05,0.05,0.5,0.5);
 
-	this.instance_1 = new lib.橢圓1();
+	this.instance_1 = new lib.oval();
 	this.instance_1.setTransform(-794,1657,1,1,-90);
 
 	this.shape = new cjs.Shape();
@@ -2277,7 +2277,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_10 = new lib.CachedBmp_6();
 	this.instance_10.setTransform(460.8,297.4,0.5,0.5);
 
-	this.instance_11 = new lib.草叢影像();
+	this.instance_11 = new lib.grass_frame();
 	this.instance_11.setTransform(0,193,0.48,0.48);
 
 	this.instance_12 = new lib.CachedBmp_5();
@@ -2325,11 +2325,11 @@ lib.properties = {
 		{src:"/static/images/quiz_dog_4/CachedBmp_3.png", id:"CachedBmp_3"},
 		{src:"/static/images/quiz_dog_4/CachedBmp_2.png", id:"CachedBmp_2"},
 		{src:"/static/images/quiz_dog_4/CachedBmp_1.png", id:"CachedBmp_1"},
-		{src:"/static/images/quiz_dog_4/_41山丘小徑入口01.jpg", id:"_41山丘小徑入口01"},
-		{src:"/static/images/quiz_dog_4/橢圓1.png", id:"橢圓1"},
+		{src:"/static/images/quiz_dog_4/_41enter.jpg", id:"_41enter"},
+		{src:"/static/images/quiz_dog_4/oval.png", id:"oval"},
 		{src:"/static/images/quiz_dog_4/guide_img.jpg", id:"guide_img"},
-		{src:"/static/images/quiz_dog_4/葉子影像_.png", id:"葉子影像"},
-		{src:"/static/images/quiz_dog_4/草叢影像_.png", id:"草叢影像"},
+		{src:"/static/images/quiz_dog_4/leaf.png", id:"leaf"},
+		{src:"/static/images/quiz_dog_4/grass_frame.png", id:"grass_frame"},
 		{src:"/static/images/quiz_dog_4/quiz_dog_4_atlas_1.png", id:"quiz_dog_4_atlas_1"},
 		{src:"/static/images/quiz_dog_4/quiz_dog_4_atlas_2.png", id:"quiz_dog_4_atlas_2"},
 		{src:"/static/images/quiz_dog_4/quiz_dog_4_atlas_3.png", id:"quiz_dog_4_atlas_3"},

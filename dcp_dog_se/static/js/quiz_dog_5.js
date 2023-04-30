@@ -349,8 +349,8 @@ p.nominalBounds = new cjs.Rectangle(0,0,3841,2160);
 p.nominalBounds = new cjs.Rectangle(0,0,3841,2160);
 
 
-(lib._51家入口 = function() {
-	this.initialize(img._51家入口);
+(lib._51enter = function() {
+	this.initialize(img._51enter);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,11340,6379);
 
@@ -550,8 +550,8 @@ p.nominalBounds = new cjs.Rectangle(0,0,8000,4500);
 
 
 
-(lib.橢圓1 = function() {
-	this.initialize(img.橢圓1);
+(lib.oval = function() {
+	this.initialize(img.oval);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2480,3508);
 
@@ -1035,7 +1035,7 @@ if (reversed == null) { reversed = false; }
 
 	// 圖層_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.bf(img._51家入口, null, new cjs.Matrix2D(0.169,0,0,0.169,-1328.3,-141.5)).s().p("AAlEqIgagCIgagDQgjgBgSgDQgQgDgSgHIgKgFQgPgHgbgQIgOgJQgSgNgXgTIgbgWIgIgGIgEgJIgagtQgKgPgCgFQgDgJgCgMIgEgVQgDgYAAgGIAEgKQAHgSADgiQADgmAFgQIAGgWIAAgBIAFgKIALgfQAUg8A3gqQA2goBBgJQA+gJBBAVQA+ATA0AqQAmAeAYAiQAjA1APBaQAFAYABAVIgBARIgDAQQgBAGACANIAAACQgFAYgWApQgcA0gbAcQgWAWggASQgQAEgVALIgPAIIgLABQgiAGgUAAIgGgBg");
+	this.shape.graphics.bf(img._51enter, null, new cjs.Matrix2D(0.169,0,0,0.169,-1328.3,-141.5)).s().p("AAlEqIgagCIgagDQgjgBgSgDQgQgDgSgHIgKgFQgPgHgbgQIgOgJQgSgNgXgTIgbgWIgIgGIgEgJIgagtQgKgPgCgFQgDgJgCgMIgEgVQgDgYAAgGIAEgKQAHgSADgiQADgmAFgQIAGgWIAAgBIAFgKIALgfQAUg8A3gqQA2goBBgJQA+gJBBAVQA+ATA0AqQAmAeAYAiQAjA1APBaQAFAYABAVIgBARIgDAQQgBAGACANIAAACQgFAYgWApQgcA0gbAcQgWAWggASQgQAEgVALIgPAIIgLABQgiAGgUAAIgGgBg");
 	this.shape.setTransform(29.925,29.8576);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
@@ -1633,7 +1633,7 @@ if (reversed == null) { reversed = false; }
 
 	// 圖層_3
 	this.shape_6 = new cjs.Shape();
-	this.shape_6.graphics.bf(img._51家入口, null, new cjs.Matrix2D(0.169,0,0,0.169,-1326.9,-141.3)).s().p("AizFAIgogeQgBghgdgEQgFACgFgFQgBgVgLgHQgDgDgFAAIgVgoQAAgZgEgYQgGgkgUgjIgKhFQACgbAFgXQAGgqAbgSQgIgiAPgSQApgtAhg/IAygeIgegKIAyAAIAUgUIDlAAICXBuIAKAeIAdAKIAzBaIAAEDIgpAyQADAcgSARQghAdggAlIgnAAIgUAUIhGAAQghABgfAAQhxAAhdgVg");
+	this.shape_6.graphics.bf(img._51enter, null, new cjs.Matrix2D(0.169,0,0,0.169,-1326.9,-141.3)).s().p("AizFAIgogeQgBghgdgEQgFACgFgFQgBgVgLgHQgDgDgFAAIgVgoQAAgZgEgYQgGgkgUgjIgKhFQACgbAFgXQAGgqAbgSQgIgiAPgSQApgtAhg/IAygeIgegKIAyAAIAUgUIDlAAICXBuIAKAeIAdAKIAzBaIAAEDIgpAyQADAcgSARQghAdggAlIgnAAIgUAUIhGAAQghABgfAAQhxAAhdgVg");
 	this.shape_6.setTransform(1326.9,141.3304);
 
 	this.instance_7 = new lib.元件3();
@@ -1645,7 +1645,7 @@ if (reversed == null) { reversed = false; }
 
 	// 圖層_5
 	this.shape_7 = new cjs.Shape();
-	this.shape_7.graphics.bf(img._51家入口, null, new cjs.Matrix2D(0.169,0,0,0.169,-1326.9,-141.3)).s().p("AizFAIgogeQgBghgdgEQgFACgFgFQgBgVgLgHQgDgDgFAAIgVgoQAAgZgEgYQgGgkgUgjIgKhFQACgbAFgXQAGgqAbgSQgIgiAPgSQApgtAhg/IAygeIgegKIAyAAIAUgUIDlAAICXBuIAKAeIAdAKIAzBaIAAEDIgpAyQADAcgSARQghAdggAlIgnAAIgUAUIhGAAQghABgfAAQhxAAhdgVg");
+	this.shape_7.graphics.bf(img._51enter, null, new cjs.Matrix2D(0.169,0,0,0.169,-1326.9,-141.3)).s().p("AizFAIgogeQgBghgdgEQgFACgFgFQgBgVgLgHQgDgDgFAAIgVgoQAAgZgEgYQgGgkgUgjIgKhFQACgbAFgXQAGgqAbgSQgIgiAPgSQApgtAhg/IAygeIgegKIAyAAIAUgUIDlAAICXBuIAKAeIAdAKIAzBaIAAEDIgpAyQADAcgSARQghAdggAlIgnAAIgUAUIhGAAQghABgfAAQhxAAhdgVg");
 	this.shape_7.setTransform(1326.9,141.3304);
 	this.shape_7._off = true;
 
@@ -1985,7 +1985,7 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.CachedBmp_174();
 	this.instance.setTransform(0.05,0.05,0.5,0.5);
 
-	this.instance_1 = new lib.橢圓1();
+	this.instance_1 = new lib.oval();
 	this.instance_1.setTransform(-794,1657,1,1,-90);
 
 	this.shape = new cjs.Shape();
@@ -2334,9 +2334,9 @@ lib.properties = {
 		{src:"/static/images/quiz_dog_5/CachedBmp_176.png", id:"CachedBmp_176"},
 		{src:"/static/images/quiz_dog_5/CachedBmp_175.png", id:"CachedBmp_175"},
 		{src:"/static/images/quiz_dog_5/CachedBmp_174.png", id:"CachedBmp_174"},
-		{src:"/static/images/quiz_dog_5/_51家入口.jpg", id:"_51家入口"},
+		{src:"/static/images/quiz_dog_5/_51enter.jpg", id:"_51enter"},
 		{src:"/static/images/quiz_dog_5/guide_img.jpg", id:"guide_img"},
-		{src:"/static/images/quiz_dog_5/橢圓1.png", id:"橢圓1"},
+		{src:"/static/images/quiz_dog_5/oval.png", id:"oval"},
 		{src:"/static/images/quiz_dog_5/quiz_dog_5_atlas_1.png", id:"quiz_dog_5_atlas_1"},
 		{src:"/static/images/quiz_dog_5/quiz_dog_5_atlas_2.png", id:"quiz_dog_5_atlas_2"},
 		{src:"/static/images/quiz_dog_5/quiz_dog_5_atlas_3.png", id:"quiz_dog_5_atlas_3"},
